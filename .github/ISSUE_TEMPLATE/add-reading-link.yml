@@ -20,14 +20,14 @@ body:
     attributes:
       label: "Article Summary"
       description: "Optional: Summary for the article?"
-      placeholder: e.g. @zachleat, @pdehaan
+      placeholder: Just write the story here
     validations:
       required: false
   - type: input
     id: source
     attributes:
       label: Article Source
-      description: "Optional: Source of the article._[parser:url]_"
-      placeholder: e.g. https://www.zachleat.com/
+      description: "Optional: Source of the article."
+      placeholder: e.g. Bloomberg Green
     validations:
       required: false
