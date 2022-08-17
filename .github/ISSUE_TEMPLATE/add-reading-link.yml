@@ -1,0 +1,33 @@
+name: Add Reading Link
+description: Reading link for hijau readkstack.
+title: "[New Hijau Article] New Reading Link!"
+labels: link-hijau-readstack
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only the article URL is required. All other fields are optional.
+  - type: input
+    id: url
+    attributes:
+      label: Link Article URL
+      description: Article of the URL. _[parser:url]_
+      placeholder: e.g. https://hijau.xyz/docs/how-redd-works
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Article Summary"
+      description: "Optional: Summary for the article?"
+      placeholder: e.g. @zachleat, @pdehaan
+    validations:
+      required: false
+  - type: input
+    id: source
+    attributes:
+      label: Article Source
+      description: "Optional: Source of the article._[parser:url]_"
+      placeholder: e.g. https://www.zachleat.com/
+    validations:
+      required: false
