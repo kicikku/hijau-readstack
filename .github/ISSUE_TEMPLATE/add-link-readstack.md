@@ -1,12 +1,3 @@
----
-name: add-link-readstack
-about: Add reading link for Hijau Docs Readstack
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: Reading link for Hijau Docs
 description: Show off your Eleventy site on the Eleventy documentation
 title: "[Hijau Reading Link] New reading!"
